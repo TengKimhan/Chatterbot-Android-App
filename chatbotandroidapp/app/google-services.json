@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1011154595039",
+    "project_id": "chat-bot-app-4bf74",
+    "storage_bucket": "chat-bot-app-4bf74.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1011154595039:android:fa1b2d5ec153cb3ed50d6a",
+        "android_client_info": {
+          "package_name": "com.tdsoft.chatbotapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1011154595039-dgei87790cms3ae4giht9niqch9qo9h1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAC68sDm2Tb9sVzDWSOcghkH8sZiUEQB2U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1011154595039-dgei87790cms3ae4giht9niqch9qo9h1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

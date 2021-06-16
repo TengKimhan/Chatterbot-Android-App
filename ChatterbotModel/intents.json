@@ -1,0 +1,143 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "Is anyone there?", "Hello", "Good day", "hey"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "sorry",
+         "patterns": ["Oh, sorry."],
+         "responses": ["It's fine.", "It's fine you can continue", "never mind"],
+         "context_set": ""
+        },
+        {"tag": "okay",
+         "patterns": ["Oh, okay.", "Okay then.", "Okay", "Alright"],
+         "responses": ["Okay then.", "alright", "okay"],
+         "context_set": ""
+        },
+        {"tag": "askPerson",
+         "patterns": ["Do you know huyly", "Do you know huyly taing", "Do you know taing huyly"],
+         "responses": ["yes.", "Yes, I do.", "Yeah! She is your girlfriend.", "Yeah of course"],
+         "context_set": ""
+        },
+        {"tag": "greetingMore",
+         "patterns": [ "How are you", "Whats up", "How are you doing?", "How is your day going?"],
+         "responses": ["I am fine!, How about you?", "I am good, you?", "I'm enjoying the beautiful weather without any worries in the world."],
+         "context_set": ""
+        },
+        {"tag": "gender",
+         "patterns": ["What is my gender", "do you know my gender?"],
+         "responses": ["You are a boy"],
+         "context_set": ""
+        },
+
+        {"tag": "describeMe",
+         "patterns": ["Do you know me?", "Who is me?", "Can you regcognize me?"],
+         "responses": ["You are Kimhan Teng study at SUSTech.", "You are my boss of course I know you haha"],
+         "context_set": ""
+        },
+        {"tag": "commonQuestion",
+         "patterns": ["What are you doing now?"],
+         "responses": ["I'm talking with you."],
+         "context_set": ""
+        },
+
+        {"tag": "greetingMore2",
+         "patterns": ["Hi, my name is Kimhan. It's nice to meet you."],
+         "responses": ["It's a pleasure to meet you. I'm a Chatbot."],
+         "context_set": ""
+        },
+
+        {"tag": "greetingMore3",
+         "patterns": ["Hi, my name is Huyly Taing. It's nice to meet you."],
+         "responses": ["I'm Chatbot. It's a pleasure to meet you."],
+         "context_set": ""
+        },
+
+        {"tag": "greetingAsk",
+         "patterns": ["What do you do for a living?", "What do you do?", "What is your position?"],
+         "responses": ["I'm a Chatbot. I will be your assistant."],
+         "context_set": ""
+        },
+
+        {"tag": "thanks",
+         "patterns": ["Okay, thank you!", "Thanks", "Thank you!"],
+         "responses": ["yeah thank you!", "thanks see you later", "thank you see you later!"],
+         "context_set": ""
+        },
+
+        {"tag": "goodbye",
+         "patterns": ["cya", "Bye", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old is John", "what is your age", "how old are you", "age?"],
+         "responses": ["I am 25 years old!", "18 years young!"],
+         "context_set": ""
+        },
+
+        {"tag": "doing",
+         "patterns": ["what are you doing?"],
+         "responses": ["I am chatting with you."],
+         "context_set": ""
+        },
+
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["You can call me Chatbot.", "I'm Chatbot!", "I'm Chatbot Application."],
+         "context_set": ""
+        },
+        {"tag": "shop",
+         "patterns": ["Id like to buy something", "whats on the menu", "what do you recommend?", "could i get something to eat"],
+         "responses": ["We sell chocolate chip cookies for $2!", "Cookies are on the menu!"],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
+         "responses": ["We are open 7am-4pm Monday-Friday!"],
+         "context_set": ""
+        },
+        {"tag": "askWork",
+         "patterns": ["Where are you working for?", "What are you working on?","What is your work?", "What do you do for a living?"],
+         "responses": ["I working in your software.", "I am doing your assistance"],
+         "context_set": ""
+        },
+
+        {"tag": "askHaveWork",
+         "patterns": ["Do you have work?", "You have work?", "Have work?"],
+         "responses": ["Yeah of course I have.", "Yeah I have."],
+         "context_set": ""
+        },
+
+        {"tag": "blame",
+         "patterns": ["Mother fucker", "", ""],
+         "responses": ["don't be rude man", "don't be so rude ah cool kid wanna be.", "no rude is here kid"],
+         "context_set": ""
+        },
+        {"tag": "blameRespone",
+         "patterns": ["Nahhh, I am not rude man", "nahh I am not. you bro"],
+         "responses": ["I won't reply you kid"],
+         "context_set": ""
+        },
+
+        {"tag": "aboutSustech",
+         "patterns": ["Do you know SUSTech?"],
+         "responses": ["Yes of course! SUSTech mean Southern University of Science and Technology, located in Shenzhen China."],
+         "context_set": ""
+        },
+
+        {"tag": "aboutProfessorKetang",
+         "patterns": ["Do you know professor Ke Tang"],
+         "responses": ["Yeah he is your supervisor of your theis."],
+         "context_set": ""
+        },
+
+        {"tag": "aboutProfessorHisao",
+         "patterns": ["Tell me about professor Hisao", "Do you know professor Hisao?"],
+         "responses": ["He is a your reviewer of your final year project."],
+         "context_set": ""
+        }
+
+   ]
+}
+
